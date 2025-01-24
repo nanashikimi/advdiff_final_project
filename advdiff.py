@@ -23,7 +23,10 @@ from einops import rearrange
 from torchvision.utils import make_grid
     
 parser = argparse.ArgumentParser()
-
+#install conda
+#run own env
+#install dependencies from environment.yaml
+#run advdiff.py
 parser.add_argument('--batch-size', type=int, default=6)
 parser.add_argument('--seed', type=int, default=0)
 parser.add_argument('--scale', type=float, default=3.0)
